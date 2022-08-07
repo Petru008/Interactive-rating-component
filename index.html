@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="hydrated" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="connect" href="script.js" />
+    <link defer src="script.js" />
     <link
       rel="icon"
       type="image/png"
@@ -36,9 +36,9 @@
     </style>
   </head>
   <body>
-    <header class="container d-flex">
-      <div class="cont d-flex">
-        <div class="content d-flex">
+    <main class="container">
+      <div class="cont">
+        <div class="content">
           <div class="icon__cont">
             <ion-icon name="star" class="icon"></ion-icon>
           </div>
@@ -52,11 +52,11 @@
             </p>
           </div>
           <ul class="note">
-            <li><button class="note__review">1</button></li>
-            <li><button class="note__review click_2">2</button></li>
-            <li><button class="note__review click_3">3</button></li>
-            <li><button class="note__review click_4">4</button></li>
-            <li><button class="note__review click_5">5</button></li>
+            <li><button class="btn" value="1">1</button></li>
+            <li><button class="btn" value="2">2</button></li>
+            <li><button class="btn" value="3">3</button></li>
+            <li><button class="btn" value="4">4</button></li>
+            <li><button class="btn" value="5">5</button></li>
           </ul>
           <div class="button">
             <a href="#" class="button__1">SUBMIT</a>
@@ -64,12 +64,13 @@
         </div>
       </div>
 
-      <div class="cont-1 pop_up">
+      <div class="cont_1 pop_up">
         <div class="content">
           <div class="thank_you_card d-flex">
             <img
               src="images/illustration-thank-you.svg"
               class="thank-you_img"
+              alt="review"
             />
           </div>
           <div class="selected__option">
@@ -86,15 +87,19 @@
               If you ever need more support, don't hesitate to get in touch!
             </p>
           </div>
+          <div class="button">
+            <a href="#" class="button__2">REFRESH</a>
+          </div>
         </div>
       </div>
-    </header>
-
+    </main>
+  </body>
+  <footer class="footer">
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Petru Banceanu</a>.
     </div>
-  </body>
+  </footer>
 </html>
