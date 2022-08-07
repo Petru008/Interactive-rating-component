@@ -1,0 +1,273 @@
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(24, 21, 21);
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.cont,
+.cont-1 {
+  color: #fff;
+  width: 100%;
+  max-width: 600px;
+  font-size: 2em;
+  margin: 2em auto;
+}
+
+.content {
+  background-color: rgb(70, 69, 69);
+  border: 1px solid rgb(70, 69, 69);
+  border-radius: 1em;
+  margin: 0 auto;
+  width: 70%;
+  max-width: 380px;
+  padding: 4rem 2rem;
+}
+
+.icon__cont {
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.icon {
+  color: orange;
+  background-color: rgb(80, 79, 79);
+  padding: 1rem 1.2rem;
+  border: 1px solid rgb(80, 79, 79);
+  border-radius: 3em;
+}
+
+.heading {
+  font-size: 1.8rem;
+  margin: 1.5rem 0;
+}
+
+.sub-heading {
+  font-size: 1.45rem;
+  line-height: 1.5;
+  margin: 2rem 0;
+  color: rgb(200, 197, 197);
+}
+
+.note {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  gap: 4rem;
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.note__review {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  background-color: rgb(80, 79, 79);
+  border: 1px solid rgb(80, 79, 79);
+  padding: 1rem 1.5rem;
+  max-width: 550px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 3em;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.note__review:visited {
+  background-color: #504f4f;
+  color: #fff;
+}
+
+.note__review:hover {
+  background-color: rgb(149, 145, 145);
+  color: #fff;
+}
+
+.note__review:active {
+  background-color: #ff8503;
+}
+
+.bColor {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  background-color: #ff8503;
+  border: 1px solid #ff8503;
+  padding: 1rem 1.5rem;
+  max-width: 550px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 3em;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.select__btn {
+  background-color: rgb(255, 133, 3);
+  display: flex;
+  justify-content: center;
+  background-color: rgb(80, 79, 79);
+  border: 1px solid rgb(80, 79, 79);
+  padding: 1rem 1.5rem;
+  max-width: 550px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 3em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.button {
+  margin: 2em 0 0.5em 0;
+}
+
+.button__1:link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.6rem;
+  background-color: rgb(255, 153, 0);
+  border: 1px solid rgb(255, 153, 0);
+  color: #fff;
+  border-radius: 2em;
+  padding: 1.5rem 0;
+}
+
+.button__1:visited {
+  background-color: rgb(255, 133, 3);
+  border: 1px solid rgb(255, 133, 3);
+  color: #fff;
+}
+
+.button__1:hover {
+  background-color: rgb(255, 153, 0);
+}
+
+.button__1:active {
+  color: rgb(255, 133, 2);
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+/*****************/
+/* Media queries */
+/*****************/
+
+@media (max-width: 530px) {
+  .content {
+    max-width: 340px;
+  }
+
+  .note {
+    gap: 2.4rem;
+  }
+
+  .note__review {
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .content {
+    max-width: 250px;
+  }
+
+  .note {
+    gap: 1.6rem;
+  }
+
+  .note__review {
+    padding: 0.8rem 1.2rem;
+  }
+}
+
+/*****************/
+/* Thank you card */
+/*****************/
+
+.cont-1 {
+  margin-bottom: -45.5rem;
+}
+
+.thank_you_card {
+  align-items: center;
+}
+
+.selected__option {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.number__selected {
+  color: rgb(255, 133, 3);
+  background-color: rgb(80, 79, 79);
+  padding: 0.8rem 2rem;
+  border: 1px solid rgb(80, 79, 79);
+  border-radius: 2em;
+  margin: 2rem 0;
+}
+
+.heading-1 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.8rem;
+  margin: 1.5rem 0;
+}
+
+.sub-heading-1 {
+  font-size: 1.45rem;
+  line-height: 1.5;
+  margin: 2rem 0;
+  color: rgb(200, 197, 197);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.pop_up {
+  position: absolute;
+  top: -250px;
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(1.25);
+  transition: top 0ms ease-in-out 200ms, opacity 200ms ease-in-out 0ms,
+    transform 20ms ease-in-out 200ms;
+}
+
+.active {
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+  transform: translate(0%, -120%) scale(1);
+  transition: ease-in;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="connect" href="script.js" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="script.js"></script>
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: #fff;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="container d-flex">
+      <div class="cont d-flex">
+        <div class="content d-flex">
+          <div class="icon__cont">
+            <ion-icon name="star" class="icon"></ion-icon>
+          </div>
+          <div class="heading">
+            <h2>How did we do ?</h2>
+          </div>
+          <div class="sub-heading">
+            <p>
+              Please let us know how we did with your support request. All
+              feedback is appreciated to help us improve our offering!
+            </p>
+          </div>
+          <ul class="note">
+            <li><button class="note__review">1</button></li>
+            <li><button class="note__review click_2">2</button></li>
+            <li><button class="note__review click_3">3</button></li>
+            <li><button class="note__review click_4">4</button></li>
+            <li><button class="note__review click_5">5</button></li>
+          </ul>
+          <div class="button">
+            <a href="#" class="button__1">SUBMIT</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cont-1 pop_up">
+        <div class="content">
+          <div class="thank_you_card d-flex">
+            <img
+              src="images/illustration-thank-you.svg"
+              class="thank-you_img"
+            />
+          </div>
+          <div class="selected__option">
+            <div class="number__selected">
+              You selected <span id="rating">5</span> out of 5
+            </div>
+          </div>
+          <div class="heading-1">
+            <h2>Thank you!</h2>
+          </div>
+          <div class="sub-heading-1">
+            <p>We appreciate you taking the time to give a rating.</p>
+            <p>
+              If you ever need more support, don't hesitate to get in touch!
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Petru Banceanu</a>.
+    </div>
+  </body>
+</html>
